@@ -1,0 +1,31 @@
+{
+  "name": "11ty-nunjucks-sort-test",
+  "description": "Testing the Nunjucks sort filter in Eleventy",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-nunjucks-sort-test/issues"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/11ty-nunjucks-sort-test#readme",
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "filter",
+    "nunjucks",
+    "sort"
+  ],
+  "license": "MPL-2.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-nunjucks-sort-test.git"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

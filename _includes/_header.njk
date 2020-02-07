@@ -1,0 +1,12 @@
+<h1>11ty-nunjucks-sort-test</h1>
+
+<p>Testing the Nunjucks sort filter in Eleventy for sorting arrays of <a href="/numbers/">numbers</a>, <a href="/strings/">strings</a>, and <a href="/objects/">objects</a>.</p>
+
+<h2><code>{% raw %}{{ arr | sort(reverse=false, caseSens=false, attr) }}{% endraw %}</code></h2>
+
+<p>Sort <code>arr</code> with JavaScript's <code>arr.sort</code> function.
+  If <code>reverse</code> is <code>true</code>, result will be reversed.
+  Sort is case-insensitive by default, but setting <code>caseSens</code> to <code>true</code> makes it case-sensitive.
+  If <code>attr</code> is passed, will compare <code>attr</code> from each item.</p>
+
+<hr />
